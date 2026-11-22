@@ -66,8 +66,11 @@ A *prumo* is a plumb line: the weight on a string that builders use to check tha
 ## Use it
 
 ```bash
-npm install @kaykesiquara/prumo
+npm install github:KaykeSiquara/prumo
 ```
+
+Not on the npm registry yet: this installs straight from GitHub and builds the
+library on install. Imports stay `@kaykesiquara/prumo`.
 
 ```tsx
 import "@kaykesiquara/prumo/styles.css";

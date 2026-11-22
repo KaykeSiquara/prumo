@@ -66,8 +66,11 @@ O prumo é o fio com um peso que o pedreiro usa para conferir se a parede está 
 ## Como usar
 
 ```bash
-npm install @kaykesiquara/prumo
+npm install github:KaykeSiquara/prumo
 ```
+
+Ainda não está no registro do npm: o comando instala direto do GitHub e gera a
+biblioteca na instalação. Os imports continuam `@kaykesiquara/prumo`.
 
 ```tsx
 import "@kaykesiquara/prumo/styles.css";
