@@ -4,7 +4,7 @@ import { Link as RouterLink } from "react-router";
 export type Lang = "en" | "pt";
 
 const en = {
-  skip: "Skip to content", openNav: "Open navigation", closeNav: "Close navigation", docsNav: "Documentation", compact: "Compact", theme: "Theme", light: "Light", dark: "Dark", system: "System",
+  madeBy: "Made by", sourceCode: "Source code on GitHub", skip: "Skip to content", openNav: "Open navigation", closeNav: "Close navigation", docsNav: "Documentation", compact: "Compact", theme: "Theme", light: "Light", dark: "Dark", system: "System",
   langButton: "PT", langLabel: "Ler em português", start: "Start", introduction: "Introduction", foundations: "Foundations", dismiss: "Dismiss",
   showCode: "Show code", hideCode: "Hide code", copyCode: "Copy code", copied: "Code copied.", copyFailed: "Copy failed. Select the code and copy it by hand.", sourceOf: "{name} source",
   sevenStates: "The seven states", stDefault: "Default", stHover: "Hover", stFocus: "Focus", stActive: "Active", stDisabled: "Disabled", stLoading: "Loading", stError: "Error",
@@ -62,7 +62,7 @@ const en = {
 export type Key = keyof typeof en;
 
 const pt: Record<Key, string> = {
-  skip: "Pular para o conteúdo", openNav: "Abrir navegação", closeNav: "Fechar navegação", docsNav: "Documentação", compact: "Compacta", theme: "Tema", light: "Claro", dark: "Escuro", system: "Sistema",
+  madeBy: "Feito por", sourceCode: "Código no GitHub", skip: "Pular para o conteúdo", openNav: "Abrir navegação", closeNav: "Fechar navegação", docsNav: "Documentação", compact: "Compacta", theme: "Tema", light: "Claro", dark: "Escuro", system: "Sistema",
   langButton: "EN", langLabel: "Read in English", start: "Início", introduction: "Introdução", foundations: "Fundamentos", dismiss: "Dispensar",
   showCode: "Mostrar código", hideCode: "Ocultar código", copyCode: "Copiar código", copied: "Código copiado.", copyFailed: "Não foi possível copiar. Selecione o código e copie à mão.", sourceOf: "Código de {name}",
   sevenStates: "Os sete estados", stDefault: "Padrão", stHover: "Hover", stFocus: "Foco", stActive: "Ativo", stDisabled: "Desabilitado", stLoading: "Carregando", stError: "Erro",

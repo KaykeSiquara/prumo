@@ -108,7 +108,7 @@ The package is 9.6 KB of JavaScript and 6.3 KB of CSS, gzipped, with React and R
 - components: 27, written against roles, accessible names and the keyboard;
 - documentation: 77, including axe on every page in both languages, the language switch, and a check that every page, prop, key and example is translated.
 
-CI checks that the generated token files match `tokens.json`, then runs the type check, the tests and both builds on Node 20 and 22.
+CI checks that the generated token files match `tokens.json`, then runs the type check, the tests and both builds on Node 22 and 24.
 
 ## Structure
 

@@ -108,7 +108,7 @@ O pacote tem 9,6 KB de JavaScript e 6,3 KB de CSS, comprimidos, com React e Radi
 - componentes: 27, escritos sobre papéis, nomes acessíveis e teclado;
 - documentação: 77, incluindo o axe em cada página nos dois idiomas, a troca de idioma e uma checagem de que toda página, propriedade, tecla e exemplo está traduzido.
 
-O CI confere se os arquivos gerados dos tokens batem com o `tokens.json` e depois roda a checagem de tipos, os testes e os dois builds em Node 20 e 22.
+O CI confere se os arquivos gerados dos tokens batem com o `tokens.json` e depois roda a checagem de tipos, os testes e os dois builds em Node 22 e 24.
 
 ## Estrutura
 
