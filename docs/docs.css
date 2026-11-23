@@ -11,6 +11,8 @@
 .doc-sidebar { position: sticky; top: 3.5rem; height: calc(100dvh - 3.5rem); overflow-y: auto; padding: var(--pr-space-4) var(--pr-space-3) var(--pr-space-10); border-right: 1px solid var(--pr-border); }
 .doc-nav ul { list-style: none; margin: 0 0 var(--pr-space-4); padding: 0; }
 .doc-nav__group { margin: var(--pr-space-2) 0 var(--pr-space-1); padding: 0 var(--pr-space-3); font-size: var(--pr-text-xs); font-weight: var(--pr-weight-semibold); color: var(--pr-text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.doc-credits { margin: var(--pr-space-6) 0 0; padding: var(--pr-space-4) var(--pr-space-3) 0; border-top: 1px solid var(--pr-border); font-size: var(--pr-text-xs); line-height: 1.7; color: var(--pr-text-muted); }
+.doc-credits a { color: var(--pr-text); text-decoration: underline; text-underline-offset: 0.15em; }
 .doc-nav__link { display: block; padding: 0.3rem var(--pr-space-3); border-radius: var(--pr-radius-md); color: var(--pr-text); font-size: var(--pr-text-sm); text-decoration: none; }
 .doc-nav__link:hover { background: var(--pr-surface-hover); }
 .doc-nav__link.is-active { background: var(--pr-accent-subtle); color: var(--pr-accent-text); font-weight: var(--pr-weight-semibold); }

@@ -50,6 +50,18 @@ function Nav({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
+const PORTFOLIO = { en: "https://kayke-siquara-en.vercel.app", pt: "https://kayke-siquara.vercel.app" } as const;
+
+function Credits() {
+  const { lang, t } = useLang();
+  return (
+    <p className="doc-credits">
+      {t("madeBy")} <a href={PORTFOLIO[lang]}>Kayke Siquara</a>
+      <br /><a href="https://github.com/KaykeSiquara/prumo">{t("sourceCode")}</a>
+    </p>
+  );
+}
+
 export function Layout() {
   const chrome = useChrome();
   const { lang, setLang, t } = useLang();
@@ -80,8 +92,8 @@ export function Layout() {
         </div>
       </header>
       <div className="doc-body">
-        <aside className="doc-sidebar"><Nav /></aside>
-        <Sheet title="Prumo" description={t("docsNav")} side="left" open={navOpen} onOpenChange={setNavOpen} closeLabel={t("closeNav")}><Nav onNavigate={() => setNavOpen(false)} /></Sheet>
+        <aside className="doc-sidebar"><Nav /><Credits /></aside>
+        <Sheet title="Prumo" description={t("docsNav")} side="left" open={navOpen} onOpenChange={setNavOpen} closeLabel={t("closeNav")}><Nav onNavigate={() => setNavOpen(false)} /><Credits /></Sheet>
         <main id="main" tabIndex={-1} className="doc-main"><Outlet /></main>
       </div>
     </div>
